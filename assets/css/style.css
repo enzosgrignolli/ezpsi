@@ -349,6 +349,8 @@ body {
 
 @media (max-width: 700px) {
 
+  @media (max-width: 700px) {
+
     .home::before {
         left: 10%;
         width: 80%;
@@ -360,6 +362,7 @@ body {
     }
 
     .intro-photo {
+        transform: none;
         width: 180px;
     }
 
@@ -375,5 +378,12 @@ body {
     .section-text {
         grid-column: 2;
     }
+
+    .intro-symbol {
+        margin-top: 0;
+        font-size: 5rem;
+    }
+
+}
 
 }
