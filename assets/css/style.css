@@ -357,9 +357,9 @@ body {
     }
 
     .intro {
-        grid-template-columns: 1fr;
-        gap: 40px;
-    }
+    grid-template-columns: minmax(0, 1fr) 140px;
+    gap: 20px;
+}
 
     .intro-photo {
         transform: none;
