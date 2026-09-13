@@ -362,7 +362,7 @@ body {
 .intro-photo {
     width: 180px;
     transform: none;
-    margin: 0 auto;
+    margin: 30px auto 0;
 }
 
     .content-section {
@@ -378,8 +378,8 @@ body {
         grid-column: 2;
     }
 
-   .intro-symbol {
-    margin: 0 auto;
+.intro-symbol {
+    margin: 30px auto 0;
 }
 
 }
