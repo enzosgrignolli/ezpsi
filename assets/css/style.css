@@ -354,16 +354,16 @@ body {
         width: 80%;
     }
 
- .intro {
-    grid-template-columns: 1fr;
-    gap: 30px;
-}
+   .intro {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
 
-.intro-photo {
-    width: 180px;
-    transform: none;
-    margin: 30px auto 0;
-}
+   .intro-photo {
+        width: 180px;
+        transform: none;
+        margin: 0 auto;
+    }
 
     .content-section {
         grid-template-columns: 36px 1fr;
@@ -378,8 +378,7 @@ body {
         grid-column: 2;
     }
 
-.intro-symbol {
-    margin: 30px auto 0;
-}
-
+   .intro-symbol {
+        margin: 0 auto;
+    }
 }
